@@ -21,7 +21,7 @@ export default {
           text: 'Scorpion Spider',
           link: 'https://crimsonred.github.io/index.html',
         },
-        { img: 'tiger.jpg', text: 'Wild Tiger', link: 'https://psf-training-pn.github.io/' },
+        { img: 'tiger.jpg', text: 'Friendly Leopard', link: 'https://psf-training-pn.github.io/' },
         { img: 'azrael.png', text: 'Azrael Cat', link: 'https://knowing-shadow-talk.glitch.me/' },
       ],
     }
