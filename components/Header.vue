@@ -24,12 +24,11 @@
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
-            <NuxtLink
-              v-for="link in links"
-              :key="link.slug"
-              :to="link.slug"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            >
+            <a href="https://chill-cat.netlify.app" class="link">Chill Cat</a>
+            <a href="https://crimsonred.github.io/index.html" class="link">Scorpion Spider</a>
+            <a href="https://psf-training-pn.github.io/" class="link">Wild Tiger</a>
+            <a href="https://knowing-shadow-talk.glitch.me/" class="link">Azrael Cat</a>
+            <NuxtLink v-for="link in links" :key="link.slug" :to="link.slug" class="link">
               {{ link.title }}
             </NuxtLink>
           </div>
@@ -48,3 +47,13 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.link {
+  @apply block mt-4 inline-block mt-0 text-teal-200 mr-4;
+}
+
+.link:hover {
+  @apply text-white;
+}
+</style>

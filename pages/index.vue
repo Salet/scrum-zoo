@@ -1,9 +1,11 @@
 <template>
   <div>
     <h1>Welcome to Scrum Zoo! Here are the animals:</h1>
-    <div v-for="pic in pictures" :key="pic.id">
-      <img :src="require(`~/assets/${pic.id}.jpg`)" class="thumb" alt="" />
-      <p class="mt-2 text-sm">{{ pic.text }}</p>
+    <div class="flex">
+      <div v-for="pic in pictures" :key="pic.img">
+        <img :src="require(`~/assets/${pic.img}`)" class="thumb" alt="" />
+        <p class="mt-2 text-sm">{{ pic.text }}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -12,7 +14,12 @@
 export default {
   data() {
     return {
-      pictures: [{ id: 'chill-cat', text: 'Chill Cat' }],
+      pictures: [
+        { img: 'chill-cat.jpg', text: 'Chill Cat' },
+        { img: 'spider.jpg', text: 'Scorpion Spider' },
+        { img: 'tiger.jpg', text: 'Wild Tiger' },
+        { img: 'azrael.png', text: 'Azrael Cat' },
+      ],
     }
   },
 }
