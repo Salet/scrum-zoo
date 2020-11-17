@@ -1,13 +1,11 @@
 <template>
   <div>
     <div class="mb-16">
-      <nav
-        class="w-full flex items-center justify-between flex-wrap bg-black p-6 rounded-xl"
-      >
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <nav class="w-full flex items-center justify-between flex-wrap bg-black p-6 rounded-xl">
+        <div class="flex items-center flex-shrink-0 text-wh site mr-6">
           <img src="~/assets/cat-ico.png" class="w-12" />
           <NuxtLink to="/">
-            <p class="font-semibold text-xl tracking-tight ml-2">Scrum Zoo</p>
+            <p class="font-semibold text-xl tracking-tight ml-2 text-white">Scrum Zoo</p>
           </NuxtLink>
         </div>
         <div class="block lg:hidden">
