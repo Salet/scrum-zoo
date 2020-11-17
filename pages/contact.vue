@@ -2,6 +2,7 @@
   <div class="rounded overflow-hidden shadow-lg bg-gray-200 p-3 flex justify-center">
     <div>
       <div>
+        <div class="font-bold text-xl mb-2">Contact us!</div>
         <form class="max-w-lg">
           <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -67,8 +68,12 @@
       </div>
       <div class="mt-6">
         or send us email at:
-        <a href="email:scrum@zoo.com">scrum@zoo.com</a>
+        <a href="email:kris.roksela@zoo.com">kris.roksela@zoo.com</a>
+      </div>
+      <div class="mt-6">
+        <p>Office:</p>
         <p>Scrum Zoo Corporation ltd.</p>
+        <p>Al. Rozdzienskiego 1A, Eight Floor, Katowice, Poland</p>
       </div>
     </div>
   </div>
