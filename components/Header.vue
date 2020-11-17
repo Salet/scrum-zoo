@@ -42,7 +42,10 @@
 export default {
   data() {
     return {
-      links: [{ slug: '/contact', title: 'Contact' }],
+      links: [
+        { slug: '/contact', title: 'Contact' },
+        { slug: '/about-us', title: 'About Us' },
+      ],
     }
   },
 }
