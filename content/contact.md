@@ -7,4 +7,6 @@ description: 'Hello there'
 
 scrum@zoo.com
 
+Scrum Trainiing Facility @ KTW Towers
+
 Scrum Zoo Corporation ltd.
