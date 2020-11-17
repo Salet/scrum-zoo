@@ -24,9 +24,10 @@
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
+            <NuxtLink to="/about" class="link">About</NuxtLink>
             <a href="https://chill-cat.netlify.app" class="link">Chill Cat</a>
             <a href="https://crimsonred.github.io/index.html" class="link">Scorpion Spider</a>
-            <a href="https://psf-training-pn.github.io/" class="link">Wild Tiger</a>
+            <a href="https://psf-training-pn.github.io/" class="link">Friendly Leopard</a>
             <a href="https://knowing-shadow-talk.glitch.me/" class="link">Azrael Cat</a>
             <NuxtLink v-for="link in links" :key="link.slug" :to="link.slug" class="link">
               {{ link.title }}
